@@ -15,6 +15,10 @@ public class RepasoArreglos {
     
     public static long[] retornoSuma(long[] input)
     {
+        if(input==null)
+        {
+            return null;
+        }
         long[] temporal = new long[input.length];
         long[] inicio;
         long[] fin;
